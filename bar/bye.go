@@ -4,7 +4,8 @@ import (
 	"fmt"
 )
 
+// Done says it has done something
 func Done() {
-	fmt.Println("By from bar")
+	fmt.Println("Bye from bar")
 }
 
