@@ -17,6 +17,9 @@ Note: the above will become the package names
 Note: if get fails then "rm -rf mygo/src/github.com/ZiCog/shiny-thing"
 and try again.
 
+Or get the whole bunch at once
+
+    $ go get github.com/ZiCog/shiny-thing
 
 How to build Go packages (these are package names)
 
@@ -25,8 +28,8 @@ How to build Go packages (these are package names)
 
 How to install Go packages (under pkg, these are package names again)
 
-   $ go install  github.com/ZiCog/shiny-thing/bar 
-   $ go install  github.com/ZiCog/shiny-thing/foo
+    $ go install  github.com/ZiCog/shiny-thing/bar 
+    $ go install  github.com/ZiCog/shiny-thing/foo
 
 How to build a Go program (Something with main in it)
 
